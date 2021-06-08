@@ -11,6 +11,14 @@ html {
 .container {
     //Mos u lodh. Mos u be nervoz. Gjithcka do te rregullohet.
     //Normalisht pasi qe e shton kodin !!!!
+    // hahaha
+    display: grid;
+    grid-template-rows: 80px 1fr 1fr 2fr;
+    grid-template-columns: 200px repeat(4, 1fr);
+    grid-template-areas: "sidebar header header header header"
+                          "sidebar sales sales sales sales"
+                          "sidebar sales sales sales sales"
+                          "sidebar new new new new";
 }
 
 @media screen and (max-width: 992px) {
