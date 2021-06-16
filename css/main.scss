@@ -4,8 +4,13 @@
 @import "./sales";
 @import "./new";
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
 .container {
@@ -29,3 +34,4 @@ html {
     grid-template-areas: "header" "sidebar" "sales" "new";
   }
 }
+
