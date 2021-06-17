@@ -1,0 +1,23 @@
+.product-new{
+    grid-area: new;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+
+    img{
+        width: 100%;
+    }
+
+    .new{
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px gray;
+    }
+
+    .new-1{
+        
+        img{
+            height: 280px;
+        }
+    }
+}
